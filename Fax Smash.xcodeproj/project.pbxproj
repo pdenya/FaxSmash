@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613D04331613E441001F8E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613D04321613E441001F8E4A /* UIKit.framework */; };
+		613D04351613E441001F8E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613D04341613E441001F8E4A /* Foundation.framework */; };
+		613D04371613E441001F8E4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613D04361613E441001F8E4A /* CoreGraphics.framework */; };
+		613D043D1613E441001F8E4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 613D043B1613E441001F8E4A /* InfoPlist.strings */; };
+		613D043F1613E441001F8E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613D043E1613E441001F8E4A /* main.m */; };
+		613D04431613E441001F8E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 613D04421613E441001F8E4A /* AppDelegate.m */; };
+		613D04451613E441001F8E4A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 613D04441613E441001F8E4A /* Default.png */; };
+		613D04471613E441001F8E4A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 613D04461613E441001F8E4A /* Default@2x.png */; };
+		613D04491613E441001F8E4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 613D04481613E441001F8E4A /* Default-568h@2x.png */; };
+		613D044C1613E441001F8E4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613D044B1613E441001F8E4A /* ViewController.m */; };
+		613D044F1613E441001F8E4A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613D044D1613E441001F8E4A /* ViewController_iPhone.xib */; };
+		613D04521613E441001F8E4A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613D04501613E441001F8E4A /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		613D042E1613E441001F8E4A /* Fax Smash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fax Smash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		613D04321613E441001F8E4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		613D04341613E441001F8E4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		613D04361613E441001F8E4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		613D043A1613E441001F8E4A /* Fax Smash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fax Smash-Info.plist"; sourceTree = "<group>"; };
+		613D043C1613E441001F8E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		613D043E1613E441001F8E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		613D04401613E441001F8E4A /* Fax Smash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fax Smash-Prefix.pch"; sourceTree = "<group>"; };
+		613D04411613E441001F8E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		613D04421613E441001F8E4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		613D04441613E441001F8E4A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		613D04461613E441001F8E4A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		613D04481613E441001F8E4A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		613D044A1613E441001F8E4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		613D044B1613E441001F8E4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		613D044E1613E441001F8E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		613D04511613E441001F8E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		613D042B1613E441001F8E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613D04331613E441001F8E4A /* UIKit.framework in Frameworks */,
+				613D04351613E441001F8E4A /* Foundation.framework in Frameworks */,
+				613D04371613E441001F8E4A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613D04231613E441001F8E4A = {
+			isa = PBXGroup;
+			children = (
+				613D04381613E441001F8E4A /* Fax Smash */,
+				613D04311613E441001F8E4A /* Frameworks */,
+				613D042F1613E441001F8E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		613D042F1613E441001F8E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613D042E1613E441001F8E4A /* Fax Smash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		613D04311613E441001F8E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613D04321613E441001F8E4A /* UIKit.framework */,
+				613D04341613E441001F8E4A /* Foundation.framework */,
+				613D04361613E441001F8E4A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		613D04381613E441001F8E4A /* Fax Smash */ = {
+			isa = PBXGroup;
+			children = (
+				613D04411613E441001F8E4A /* AppDelegate.h */,
+				613D04421613E441001F8E4A /* AppDelegate.m */,
+				613D044A1613E441001F8E4A /* ViewController.h */,
+				613D044B1613E441001F8E4A /* ViewController.m */,
+				613D044D1613E441001F8E4A /* ViewController_iPhone.xib */,
+				613D04501613E441001F8E4A /* ViewController_iPad.xib */,
+				613D04391613E441001F8E4A /* Supporting Files */,
+			);
+			path = "Fax Smash";
+			sourceTree = "<group>";
+		};
+		613D04391613E441001F8E4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613D043A1613E441001F8E4A /* Fax Smash-Info.plist */,
+				613D043B1613E441001F8E4A /* InfoPlist.strings */,
+				613D043E1613E441001F8E4A /* main.m */,
+				613D04401613E441001F8E4A /* Fax Smash-Prefix.pch */,
+				613D04441613E441001F8E4A /* Default.png */,
+				613D04461613E441001F8E4A /* Default@2x.png */,
+				613D04481613E441001F8E4A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		613D042D1613E441001F8E4A /* Fax Smash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613D04551613E441001F8E4A /* Build configuration list for PBXNativeTarget "Fax Smash" */;
+			buildPhases = (
+				613D042A1613E441001F8E4A /* Sources */,
+				613D042B1613E441001F8E4A /* Frameworks */,
+				613D042C1613E441001F8E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fax Smash";
+			productName = "Fax Smash";
+			productReference = 613D042E1613E441001F8E4A /* Fax Smash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613D04251613E441001F8E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = NEXTMARVEL;
+			};
+			buildConfigurationList = 613D04281613E441001F8E4A /* Build configuration list for PBXProject "Fax Smash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 613D04231613E441001F8E4A;
+			productRefGroup = 613D042F1613E441001F8E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613D042D1613E441001F8E4A /* Fax Smash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		613D042C1613E441001F8E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613D043D1613E441001F8E4A /* InfoPlist.strings in Resources */,
+				613D04451613E441001F8E4A /* Default.png in Resources */,
+				613D04471613E441001F8E4A /* Default@2x.png in Resources */,
+				613D04491613E441001F8E4A /* Default-568h@2x.png in Resources */,
+				613D044F1613E441001F8E4A /* ViewController_iPhone.xib in Resources */,
+				613D04521613E441001F8E4A /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613D042A1613E441001F8E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613D043F1613E441001F8E4A /* main.m in Sources */,
+				613D04431613E441001F8E4A /* AppDelegate.m in Sources */,
+				613D044C1613E441001F8E4A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		613D043B1613E441001F8E4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613D043C1613E441001F8E4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		613D044D1613E441001F8E4A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613D044E1613E441001F8E4A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		613D04501613E441001F8E4A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613D04511613E441001F8E4A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		613D04531613E441001F8E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		613D04541613E441001F8E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		613D04561613E441001F8E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fax Smash/Fax Smash-Prefix.pch";
+				INFOPLIST_FILE = "Fax Smash/Fax Smash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		613D04571613E441001F8E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fax Smash/Fax Smash-Prefix.pch";
+				INFOPLIST_FILE = "Fax Smash/Fax Smash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		613D04281613E441001F8E4A /* Build configuration list for PBXProject "Fax Smash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613D04531613E441001F8E4A /* Debug */,
+				613D04541613E441001F8E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613D04551613E441001F8E4A /* Build configuration list for PBXNativeTarget "Fax Smash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613D04561613E441001F8E4A /* Debug */,
+				613D04571613E441001F8E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613D04251613E441001F8E4A /* Project object */;
+}
