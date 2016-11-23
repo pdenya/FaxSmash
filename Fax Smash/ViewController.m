@@ -81,12 +81,7 @@
 	[palleteView sethp:0.12f];
 	[palleteView sety:0];
 	[palleteView setx:0];
-	[palleteView setBackgroundColor:[UIColor colorWithHex:0xCCCCCC]];
-	palleteView.layer.shadowColor = [UIColor colorWithHex:0x333333].CGColor;
-	palleteView.layer.shadowOffset = CGSizeMake(0.0, 1.0);
-	palleteView.layer.shadowOpacity = 0.8f;
-	palleteView.layer.cornerRadius = 2.0f;
-	palleteView.alpha = 0.95f;
+	[palleteView setBackgroundColor:[[UIColor colorWithHex:0xCCCCCC] colorWithAlphaComponent:0.4f]];
 	[self.view bringSubviewToFront:palleteView];
 	
 	//restart button
@@ -108,17 +103,17 @@
 	[self.restartButton setContentEdgeInsets:contentInsets];
 	[palleteView addSubview:self.restartButton];
 	[self.restartButton sizeToFit];
-	[self.restartButton sethp:0.6f];
+	[self.restartButton sethp:0.5f];
 	[self.restartButton addTarget:self action:@selector(startOver:) forControlEvents:UIControlEventTouchUpInside];
-	[self.restartButton setyp:0.5f];
+	[self.restartButton setyp:0.6f];
 	[self.restartButton setx:[palleteView w] - [self.restartButton w] - 10];
 	
 	UIImageView *weaponview = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bat_thumb.png"]];
 	[palleteView addSubview:weaponview];
-	[weaponview sethp:0.7f];
+	[weaponview sethp:0.6f];
 	[weaponview setwp:0.3f];
 	[weaponview setx:7];
-	[weaponview setyp:0.5f];
+	[weaponview setyp:0.6f];
 	weaponview.contentMode = UIViewContentModeScaleAspectFit;
 	weaponview.backgroundColor = [UIColor colorWithHex:0x4486be];
 	weaponview.layer.borderColor = [UIColor colorWithHex:0x4486be].CGColor;
@@ -136,9 +131,9 @@
 	[self.settingsButton setContentEdgeInsets:contentInsets];
 	[palleteView addSubview:self.settingsButton];
 	[self.settingsButton sizeToFit];
-	[self.settingsButton sethp:0.6f];
+	[self.settingsButton sethp:0.5f];
 	[self.settingsButton addTarget:self action:@selector(showSettings:) forControlEvents:UIControlEventTouchUpInside];
-	[self.settingsButton setyp:0.5f];
+	[self.settingsButton setyp:0.6f];
 	[self.settingsButton setx:[self.restartButton x] - [self.settingsButton w] - 10];
 	
 	
